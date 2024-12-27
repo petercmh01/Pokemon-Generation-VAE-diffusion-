@@ -9,7 +9,9 @@ This project is developed as part of the MUST Data Science class. It provides an
 ## **Installation**
 Ensure you have Python installed and set up a virtual environment for the project. Then, install the required dependencies:  
 `pip install torch torchvision`  
+
 `pip install denoising_diffusion_pytorch`
+
 `pip install pytorch-fid`
 
 Dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types

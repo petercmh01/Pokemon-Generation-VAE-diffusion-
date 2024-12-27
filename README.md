@@ -16,4 +16,9 @@ Ensure you have Python installed and set up a virtual environment for the projec
 
 Dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
 
+## **Training VAE**
+
+`python script_name.py --latent_dim 64 --lr 1e-3 --epochs 5000 --batch_size 16 --dataset_path /path/to/dataset --save_path /path/to/save`
+
+
 

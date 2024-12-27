@@ -23,6 +23,10 @@ To train vae from scratch, run
 To use VAE for random generation, run
 `python random_generation.py --num_images 800 --latent_dim 128 --batch_size 50 --model_path /path/to/model.pth --save_folder /path/to/save`
 
+To interpolate between two images, run
+`python interpolation.py --latent_dim 128 --model_path /path/to/model.pth --image1_path /path/to/image1.png --image2_path /path/to/image2.png --num_steps 10 --save_folder /path/to/save`
+
+
 
 
 

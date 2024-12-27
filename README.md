@@ -26,6 +26,10 @@ To use VAE for random generation, run
 To interpolate between two images, run
 `python interpolation.py --latent_dim 128 --model_path /path/to/model.pth --image1_path /path/to/image1.png --image2_path /path/to/image2.png --num_steps 10 --save_folder /path/to/save`
 
+## **FID**
+To run FID score, run
+`python -m pytorch_fid path/to/dataset1 path/to/dataset2` where one of the dataset is generated and the other is real images. 
+
 
 
 

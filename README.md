@@ -21,7 +21,7 @@ To train vae from scratch, run
 `python train_vae.py --latent_dim 128 --lr 2e-4 --epochs 10000 --batch_size 32 --dataset_path /path/to/dataset --save_path /path/to/save`
 
 To use VAE for random generation, run
-`python script_name.py --num_images 800 --latent_dim 128 --batch_size 50 --model_path /path/to/model.pth --save_folder /path/to/save`
+`python random_generation.py --num_images 800 --latent_dim 128 --batch_size 50 --model_path /path/to/model.pth --save_folder /path/to/save`
 
 
 

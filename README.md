@@ -16,9 +16,12 @@ Ensure you have Python installed and set up a virtual environment for the projec
 
 Dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
 
-## **Training VAE**
-
+## **VAE Usage**
+To train vae from scratch, run
 `python train_vae.py --latent_dim 128 --lr 2e-4 --epochs 10000 --batch_size 32 --dataset_path /path/to/dataset --save_path /path/to/save`
+
+To use VAE for random generation, run
+
 
 
 

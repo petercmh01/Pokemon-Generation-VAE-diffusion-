@@ -18,7 +18,7 @@ Dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
 
 ## **Training VAE**
 
-`python script_name.py --latent_dim 64 --lr 1e-3 --epochs 5000 --batch_size 16 --dataset_path /path/to/dataset --save_path /path/to/save`
+`python train_vae.py --latent_dim 128 --lr 2e-4 --epochs 10000 --batch_size 32 --dataset_path /path/to/dataset --save_path /path/to/save`
 
 
 

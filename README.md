@@ -11,4 +11,6 @@ Ensure you have Python installed and set up a virtual environment for the projec
 `pip install torch torchvision`  
 `pip install denoising_diffusion_pytorch`
 
+Dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
+
 

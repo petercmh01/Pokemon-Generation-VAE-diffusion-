@@ -28,7 +28,7 @@ To interpolate between two images, run
 
 ## **Diffusion**
 
-To train diffusion model, follow https://github.com/lucidrains/denoising-diffusion-pytorch
+To train diffusion model, run train_diffusion.py or follow https://github.com/lucidrains/denoising-diffusion-pytorch
 
 ## **FID**
 To run FID score, run

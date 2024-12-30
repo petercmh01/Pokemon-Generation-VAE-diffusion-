@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a99bded1-2fa0-423a-aecd-f55e5df03af0)# **Pokemon Generation with VAE and Diffusion**
+# **Pokemon Generation with VAE and Diffusion**
 
 This project is developed as part of the MUST Data Science class. It provides an open-source tool for training and generating Pokemon-like images using Variational Autoencoders (VAE) and Diffusion Models.
 

@@ -1,4 +1,4 @@
-# **Pokemon Generation with VAE and Diffusion**
+![image](https://github.com/user-attachments/assets/a99bded1-2fa0-423a-aecd-f55e5df03af0)# **Pokemon Generation with VAE and Diffusion**
 
 This project is developed as part of the MUST Data Science class. It provides an open-source tool for training and generating Pokemon-like images using Variational Autoencoders (VAE) and Diffusion Models.
 
@@ -25,6 +25,10 @@ To use VAE for random generation, run
 
 To interpolate between two images, run
 `python interpolation.py --latent_dim 128 --model_path /path/to/model.pth --image1_path /path/to/image1.png --image2_path /path/to/image2.png --num_steps 10 --save_folder /path/to/save`
+
+## **Diffusion**
+
+To train diffusion model, follow https://github.com/lucidrains/denoising-diffusion-pytorch
 
 ## **FID**
 To run FID score, run

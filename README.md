@@ -34,7 +34,12 @@ To train diffusion model, run train_diffusion.py or follow https://github.com/lu
 To run FID score, run
 `python -m pytorch_fid path/to/dataset1 path/to/dataset2` where one of the dataset is generated and the other is real images. 
 
+## **Sample Results** 
+VAE interpolation
+![image](https://github.com/user-attachments/assets/7bad6569-6116-4679-a31f-2a35844e750d)
 
+Diffusion and VAE random generation
+![Uploading image.png…]()
 
 
 
